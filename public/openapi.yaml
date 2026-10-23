@@ -36,10 +36,10 @@ externalDocs:
   url: https://icanhazdadjoke.com/api
 
 servers:
-  - url: http://localhost:3000/api
-    description: Local caching proxy (default). Start it with `npm start`.
+  - url: https://scalar-dad-joke-api.onrender.com/api
+    description: Deployed caching proxy
   - url: https://icanhazdadjoke.com
-    description: Official API (direct). Add the request header `Accept` = `application/json`.
+    description: Official API (direct)
 
 tags:
   - name: Jokes
